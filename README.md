@@ -14,32 +14,58 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 5. Re-factor Apex Classes
 
 ### Custom Objects
-1. Custom Object names should be <b>CapitalizedCamelCase</b>
+1. Custom object name should be <b>CapitalizedCamelCase</b>
 2. e.g. SalesOrder__c etc. <font color="green">(Yes this one!)</font>
 3. Sales_Order__c (Not this one!)
 
 ### Custom Fields
-1. Custom field names should be <b>CapitalizedCamelCase</b>
+1. Custom field name should be <b>CapitalizedCamelCase</b>
 2. e.g. SalesAmount__c etc. <font color="green">(Yes this one!)</font>
 3. Sales_Amount__c (Not this one!)
 
-### Apex Triggers
-1. Apex Triggers names should be <b>CapitalizedCamelCase</b>
+### Apex Trigger
+1. Apex trigger name should be <b>CapitalizedCamelCase</b>
 2. e.g. AccountTrigger, SalesOrderTrigger etc. <font color="green">(Yes this one!)</font>
 3. AfterUpdateTrigger etc. (Not this one!)
-1. Apex Triggers should be Bulkified.
-2. Apex Triggers should be implemented with NO Business Logic in it rather calling an Apex Trigger Handler to handle the Business Logic.
+1. Apex triggers should be Bulkified.
+2. Apex triggers should be implemented with NO Business Logic in it rather calling an Apex Trigger Handler to handle the Business Logic.
 
-### Apex Classes
-1. Apex Classes names should be <b>CapitalizedCamelCase</b>
+### Apex Class
+1. Apex class name should be <b>CapitalizedCamelCase</b>
 2. e.g. SalesOrderTriggerHandler, SalesOrderUtility etc. <font color="green">(Yes this one!)</font>
 3. Sales_Order_Trigger_Handler, Sales_Order_Utility etc. (Not this one!)
 4. Method or Function names should use <b>lowerCamelCase</b>
 5. e.g. calculateTotalAmount etc. <font color="green">(Yes this one!)</font>
 6. e.g. CalculateTotalAmount, CALCULATE_TOTAL_AMOUNT, Calculate_Total_Amount etc. (Not this one!)
 
-### Apex Constant Classes
-1. e.g. ApplicationConstant etc.
+### Apex Constant Class
+1. Apex constant class name should be <b>CapitalizedCamelCase</b>
+2. e.g. ApplicationConstant etc. <font color="green">(Yes this one!)</font>
 2. Constants should be CAPITALIZED_WITH_UNDERSCORES.
 3. e.g. SALES_ORDER_STATUS etc. <font color="green">(Yes this one!)</font>
 4. e.g. salesOrderStatus, sales_Order_Status etc. (Not this one!)
+
+### Apex Trigger Handler Class
+1. Apex trigger handler class name should be <b>CapitalizedCamelCase</b>
+2. e.g. AccountTriggerHandler, SalesOrderTriggerHandler etc. <font color="green">(Yes this one!)</font>
+
+### Apex Utility Class
+1. Apex utility class name should be <b>CapitalizedCamelCase</b>
+2. e.g. AccountUtility, SalesOrderUtility etc. <font color="green">(Yes this one!)</font>
+
+### Apex Wrapper Class
+1. Apex wrapper class name should be <b>CapitalizedCamelCase</b>
+2. e.g. AccountWrapper, SalesOrderWrapper, IntegrationWrapper, LightningComponentWrapper etc. <font color="green">(Yes this one!)</font>
+
+### Visualforce / Lightning Controller Class
+1. Visualforce / Lightning component class name should be <b>CapitalizedCamelCase</b>
+2. e.g. AccountController, SalesOrderController etc. <font color="green">(Yes this one!)</font>
+
+### Apex Test Data Factory Class
+1. Apex test data factory class name should be <b>CapitalizedCamelCase</b>
+2. e.g. TestDataFactory <font color="green">(Yes this one!)</font>
+3. The TestDataFactory will have test methods to build objects with the data. 
+
+### Apex Test Class
+1. Apex test class name should be <b>CapitalizedCamelCase</b>
+2. e.g. AccountTriggerHandlerTest, SalesOrderTriggerHandlerTest etc. <font color="green">(Yes this one!)</font>
