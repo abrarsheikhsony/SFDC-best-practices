@@ -34,6 +34,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (b) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables.htm" target="_blank" alt="Trigger Context Variables">Trigger Context Variables</a>
 (c) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_recovered_records.htm" target="_blank" alt="Triggers and Recovered Records">Triggers and Recovered Records for after undelete trigger</a>
 
+
 ### Apex Class
 1. Apex class name should be <b>CapitalizedCamelCase</b>
 2. e.g. SalesOrderTriggerHandler, SalesOrderUtility etc. <font color="green">(Yes this one!)</font>
