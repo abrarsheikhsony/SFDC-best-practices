@@ -36,5 +36,5 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 3. Sales_Order_Trigger_Handler, Sales_Order_Utility etc. (Not this one!)
 4. Method or Function names should use <b>lowerCamelCase</b>
 5. e.g. calculateTotalAmount etc. <font size="5" color="green">(Yes this one!)</font>
-6. e.g. CalculateTotalAmount, CALCULATE_TOTAL_AMOUNT, Calculate_Total_Amount etc. <font size="5" color="green">(Yes this one!)</font>
+6. e.g. CalculateTotalAmount, CALCULATE_TOTAL_AMOUNT, Calculate_Total_Amount etc. (Not this one!)
 
