@@ -13,13 +13,13 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 5. Re-factor Apex Classes
 
 ### Custom Objects
-Custom Object names should be <b>CapitalizedCamelCase</b>
+Custom Object names should be <b>CapitalizedCamelCase</b><p/>
 For Example:
 1. SalesOrder__c (Yes this one!)
 2. Sales_Order__c (Not this one!)
 
 ### Custom Fields
-Custom field names should be <b>CapitalizedCamelCase</b>
+Custom field names should be <b>CapitalizedCamelCase</b><p/>
 For Example:
 1. SalesAmount__c (Yes this one!)
 2. Sales_Amount__c (Not this one!)
