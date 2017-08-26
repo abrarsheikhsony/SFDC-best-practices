@@ -38,3 +38,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 5. e.g. calculateTotalAmount etc. <font color="green">(Yes this one!)</font>
 6. e.g. CalculateTotalAmount, CALCULATE_TOTAL_AMOUNT, Calculate_Total_Amount etc. (Not this one!)
 
+### Apex Constant Classes
+1. e.g. ApplicationConstant etc.
+2. Constants should be CAPITALIZED_WITH_UNDERSCORES.
+3. e.g. SALES_ORDER_STATUS etc. <font color="green">(Yes this one!)</font>
+4. e.g. salesOrderStatus, sales_Order_Status etc. (Not this one!)
