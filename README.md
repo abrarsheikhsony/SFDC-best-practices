@@ -12,13 +12,13 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 3. Apex Triggers
 4. Apex Classes
 5. Re-factor Apex Classes
-(a) Apex Constants class
-(b) Apex Trigger Handler class
-(c) Apex Utility class
-(d) Apex Wrapper class
-(e) Apex Controller (Visualforce / Lightning) class
-(f) Apex Test Data Factory class
-(g) Apex Test class
+(a) Apex Constants class<br/>
+(b) Apex Trigger Handler class<br/>
+(c) Apex Utility class<br/>
+(d) Apex Wrapper class<br/>
+(e) Apex Controller (Visualforce / Lightning) class<br/>
+(f) Apex Test Data Factory class<br/>
+(g) Apex Test class<br/>
 
 ### Custom Objects
 1. Custom object name should be <b>CapitalizedCamelCase</b>
