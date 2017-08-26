@@ -14,18 +14,17 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 5. Re-factor Apex Classes
 
 ### Custom Objects
-1. Custom Object names should be <b>CapitalizedCamelCase</b><p/>
-<font color="red">Yes this one</font>
-2. e.g. SalesOrder__c (Yes this one!)
+1. Custom Object names should be <b>CapitalizedCamelCase</b>
+2. e.g. SalesOrder__c <font color="green">(Yes this one!)</font>
 3. Sales_Order__c (Not this one!)
 
 ### Custom Fields
-1. Custom field names should be <b>CapitalizedCamelCase</b><p/>
-2. e.g. SalesAmount__c (Yes this one!)
+1. Custom field names should be <b>CapitalizedCamelCase</b>
+2. e.g. SalesAmount__c <font color="green">(Yes this one!)</font>
 3. Sales_Amount__c (Not this one!)
 
 ### Apex Triggers
-1. Apex Triggers names should be <b>CapitalizedCamelCase</b><p/>
+1. Apex Triggers names should be <b>CapitalizedCamelCase</b>
 2. e.g. AccountTrigger, SalesOrderTrigger,  (Yes this one!)
 3. 
 1. Apex Triggers should be Bulkified.
