@@ -14,7 +14,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 ### Custom Objects
 1. Custom Object names should be <b>CapitalizedCamelCase</b><p/>
-<font size="5" color="green">Yes this one</font>
+<font color="green">Yes this one</font>
 2. e.g. SalesOrder__c (Yes this one!)
 3. Sales_Order__c (Not this one!)
 
