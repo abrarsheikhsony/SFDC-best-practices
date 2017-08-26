@@ -1,9 +1,6 @@
 /*----------------------------------------------------------------------
 Name: 		SalesOrderTest.cls
 Purpose: 	A test class of SalesOrder__c object
-			Note: Using the isTest annotation instead of the testMethod keyword 
-			is more flexible as you can specify parameters in the annotation.
-			e.g. @isTest(SeeAllData=true)
 ------------------------------History----------------------------------
 Version 	Author 		Date 				Detail Description 
 -------		-------		-------------- 		------------------
@@ -38,7 +35,11 @@ private class SalesOrderTest{
     	// Code here...
 	}
 
-	// Recommended
+	/*
+	Recommended Approach:
+	Using the @isTest annotation instead of the testMethod keyword is more flexible as you can specify parameters in the annotation.
+	e.g. @isTest(SeeAllData=true)
+	*/
 	@isTest static void testCaseName2(){
     	// Code here...
 	}
