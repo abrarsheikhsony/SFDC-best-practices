@@ -11,7 +11,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 2. Custom Fields
 3. Apex Triggers
 4. Apex Classes
-5. Re-factor Apex Classes
+5. Re-factor Apex Classes<br/>
 (a) Apex Constants class<br/>
 (b) Apex Trigger Handler class<br/>
 (c) Apex Utility class<br/>
