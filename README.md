@@ -1,6 +1,7 @@
 # Salesforce Best Practices
 # With Great Power Comes Great Responsibility!
 
+```html
 The best applications are coded properly. The "properly" means the code not only does its job well, but is also easy to understand, add to, maintain and debug.
 
 Coding standards are great! We want to ensure that the Salesforce.com org is self documented. The consistent and well-written code is critical to ensuring high quality standards across all applications. 
@@ -14,7 +15,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 ### Custom Objects
 1. Custom Object names should be <b>CapitalizedCamelCase</b><p/>
-<font color="green">Yes this one</font>
+<font color:"green">Yes this one</font>
 2. e.g. SalesOrder__c (Yes this one!)
 3. Sales_Order__c (Not this one!)
 
@@ -32,3 +33,4 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 ### Apex Classes
 1. 
+```
