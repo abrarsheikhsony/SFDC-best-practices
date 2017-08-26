@@ -1,4 +1,4 @@
-# Salesforce BestPractices
+# Salesforce Best Practices
 # With Great Power Comes Great Responsibility!
 
 The best applications are coded properly. The "properly" means the code not only does its job well, but is also easy to understand, add to, maintain and debug.
