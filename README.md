@@ -11,3 +11,18 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 3. Apex Triggers
 4. Apex Classes
 5. Re-factor Apex Classes
+
+### Custom Objects
+Custom Object names should be CapitalizedCamelCase
+For Example:
+1. SalesOrder__c (Yes this one!)
+2. Sales_Order__c (Not this one!)
+
+### Custom Fields
+Custom field names should be CapitalizedCamelCase
+For Example:
+1. SalesAmount__c (Yes this one!)
+2. Sales_Amount__c (Not this one!)
+
+### Apex Triggers
+Apex Triggers should be Bulkified. 
