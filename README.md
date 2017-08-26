@@ -34,7 +34,6 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (b) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables.htm" target="_blank" alt="Trigger Context Variables">Trigger Context Variables</a><br/>
 (c) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_recovered_records.htm" target="_blank" alt="Triggers and Recovered Records">Triggers and Recovered Records for after undelete trigger</a><br/>
 
-
 ### Apex Class
 1. Apex class name should be <b>CapitalizedCamelCase</b>
 2. e.g. SalesOrderTriggerHandler, SalesOrderUtility etc. <font color="green">(Yes this one!)</font>
@@ -70,7 +69,15 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 1. Apex test data factory class name should be <b>CapitalizedCamelCase</b>
 2. e.g. TestDataFactory <font color="green">(Yes this one!)</font>
 3. The TestDataFactory will have test methods to build objects with the data. 
+##### Reference Links
+(a) <a href="https://trailhead.salesforce.com/en/modules/apex_testing/units/apex_testing_intro" target="_blank" alt="Get Started with Apex Unit Tests">Get Started with Apex Unit Tests</a><br/>
+(b) <a href="http://releasenotes.docs.salesforce.com/en-us/winter18/release-notes/rn_apex_annotation_istest_isparallel.htm" target="_blank" alt="@isTest(isParallel=true) annotation">@isTest(isParallel=true) annotation</a><br/>
+(c) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_utility_classes.htm" target="_blank" alt="Common Test Utility Classes for Test Data Creation">Common Test Utility Classes for Test Data Creation</a><br/>
+(d) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_methods_system_test.htm" target="_blank" alt="Standard Test Methods">Standard Test Methods</a><br/>
 
 ### Apex Test Class
 1. Apex test class name should be <b>CapitalizedCamelCase</b>
 2. e.g. AccountTriggerHandlerTest, SalesOrderTriggerHandlerTest etc. <font color="green">(Yes this one!)</font>
+##### Reference Links
+(a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_qs_test.htm" target="_blank" alt="Hello World Trigger Test Class">Hello World Trigger Test Class</a><br/>
+(b) <a href="https://developer.salesforce.com/page/An_Introduction_to_Apex_Code_Test_Methods" target="_blank" alt="An Introduction to Apex Code Test Methods">An Introduction to Apex Code Test Methods</a><br/>
