@@ -9,11 +9,17 @@ Version 	Author 		Date 				Detail Description
 -------		-------		-------------- 		------------------
 1.0 		Abrar 		25-August-2017		Initial Development	
 ----------------------------------------------------------------------*/
-@isTest
+/*
+Considerations for @isTest(isParallel=true) annotation:
+(1) Use the @isTest(isParallel=true) annotation to indicate test classes that can run in parallel and aren’t restricted by the default limits on the number of concurrent tests. This makes the execution of test classes more efficient, because more tests can be run in parallel.
+(2) This annotation overrides the default setting (Disable Parallel Apex Testing) that disable parallel testing.
+(3) A test class that doesn’t have this annotation is restricted by the default limits on the number of concurrent tests.
+*/
+@isTest(isParallel=true)
 private class SalesOrderTest{
 
 	/*
-	Considerations for @testSetup:
+	Considerations for @testSetup annotation:
 	(1) Methods with @testSetup annotation are available/supported ONLY with those test classes which are marked as @isTest and NOT with @isTest(SeeAllData=true).
 	(2) You can have only one test setup method per test class.
 	(3) Methods defined with the @testSetup annotation are used for creating common test records that are available for all test methods in the class.
