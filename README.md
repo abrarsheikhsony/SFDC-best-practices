@@ -459,12 +459,32 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 </table>
 
+<br/>
 
-
-
-
+<table>
+	<tr>
+		<th colspan="3">Custom Metadata Types</th>
+	</tr>
+	<tr>
+		<th>Best Practice</th>
+		<th>Examples</th>
+	</tr>
+	<tr>
+		<td>Use SOQL query to access Custom Metadata Type record</td>
+		<td>(1) Access All records <br/>
+			<code>
+			List<TPM_KPIConfiguration__mdt> lstKPIConfigurations = [SELECT MasterLabel, QualifiedApiName, DeveloperName, TPM_Active__c FROM TPM_KPIConfiguration__mdt];
+			</code>
+			<br/> (2) Access specific record <br/>
+			<code>
+			TPM_KPIConfiguration__mdt kpiConfiguration = [SELECT MasterLabel, QualifiedApiName, DeveloperName, TPM_Active__c FROM TPM_KPIConfiguration__mdt WHERE QualifiedApiName = 'WaveAnalytics1'];
+			</code>
+		</td>
+	</tr>
+</table>
 
 <br/>
+
 ##### Reference Links for Apex Trigger
 (a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables_considerations.htm" target="_blank" alt="Context Variable Considerations">Context Variable Considerations</a><br/>
 (b) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables.htm" target="_blank" alt="Trigger Context Variables">Trigger Context Variables</a><br/>
