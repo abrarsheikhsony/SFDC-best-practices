@@ -389,6 +389,45 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 <br/>
 
+<table>
+	<tr>
+		<th colspan="3">Custom Settings</th>
+	</tr>
+	<tr>
+		<th>Component</th>
+		<th>Best Practice</th>
+		<th>Examples</th>
+	</tr>
+	<tr>
+		<td>List Custom Settings in Apex</td>
+		<td>
+			Don't use SOQL Query to access custom setting. Use following List custom setting methods to access it.
+			(1) getAll()
+			(2) getInstance(dataSetName)
+			(3) getValues(dataSetName)
+		</td>
+		<td>
+			(1) Get all records of a custom setting
+			Map<String, TPM_TriggerSetting_c> triggerSetting = TPM_TriggerSetting_c.getAll();
+			for(String triggerName : triggerSetting.keySet()){
+				System.Debug('>>triggerName<<'+triggerName); 
+				System.Debug('>>Trigger flag Activate/Deactivate<<'+triggerSetting.get(triggerName).Deactivate__c);
+			}
+
+			(2) Get specific record from the custom setting using literal
+			TPM_TriggerSetting_c accountTriggerSetting = TPM_TriggerSetting_c.getInstance('Account');
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
+
+			(3) Get specific record from the custom setting using literal
+			TPM_TriggerSetting_c accountTriggerSetting = TPM_TriggerSetting_c.getValues('Account');
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
+		</td>
+	</tr>
+</table>
+
+<br/>
 ##### Reference Links for Apex Trigger
 (a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables_considerations.htm" target="_blank" alt="Context Variable Considerations">Context Variable Considerations</a><br/>
 (b) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables.htm" target="_blank" alt="Trigger Context Variables">Trigger Context Variables</a><br/>
