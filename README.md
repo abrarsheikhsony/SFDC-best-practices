@@ -4,7 +4,7 @@
 
 The best applications are coded properly. The "properly" means the code not only does its job well, but is also easy to understand, add to, maintain and debug.
 
-Coding standards are great! We want to ensure that the Salesforce.com org is self documented. The consistent and well-written code is critical to ensuring high quality standards across all applications. 
+Coding standards are great! We want to ensure that the Salesforce org is self documented. The consistent and well-written code is critical to ensuring high quality standards across all applications. 
 
 Here you will find the Best Practices (Naming Conventions & Coding Standards) of following components of Salesforce.com org:
 1. Custom Objects
