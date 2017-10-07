@@ -189,7 +189,6 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 <br/>
 
-
 <table>
 	<tr>
 		<th colspan="12">Acceptable Keywords & Access Modifiers (Y)</th>
@@ -204,6 +203,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th>@isTest annotation</th>
 		<th>@testSetup annotation</th>
 		<th>@TestVisible annotation</th>
+		<th>@AuraEnabled annotation</th>
 	</tr>
 	<tr>
 		<td>Apex Constant Class</td>
@@ -211,6 +211,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>Y</td>
 		<td></td>
 		<td>Y</td>
+		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -226,6 +227,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td></td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Apex Utility</td>
@@ -234,6 +236,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td>Y</td>
 		<td>Y</td>
+		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -248,6 +251,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td></td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Apex Schedule</td>
@@ -255,6 +259,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td>Y</td>
+		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -270,6 +275,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td></td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Apex Wrapper</td>
@@ -277,6 +283,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>Y</td>
 		<td></td>
 		<td>Y</td>
+		<td></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -292,6 +299,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td></td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Visualforce Controller Extension</td>
@@ -303,6 +311,19 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Lightning Controller</td>
+		<td></td>
+		<td>Y</td>
+		<td></td>
+		<td>Y</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Y</td>
 	</tr>
 	<tr>
 		<td>Apex Test Data Factory</td>
@@ -312,6 +333,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td>Y</td>
+		<td></td>
 		<td></td>
 		<td></td>
 	</tr>
@@ -325,6 +347,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>Y</td>
 		<td></td>
 		<td></td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Apex Non-Test Class Private Variables</td>
@@ -336,6 +359,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td>Y</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Apex Non-Test Class Private Methods</td>
@@ -347,6 +371,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 		<td></td>
 		<td>Y</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>Apex Setup / Common Method</td>
@@ -358,10 +383,9 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>Y</td>
 		<td>Y</td>
 		<td></td>
+		<td></td>
 	</tr>
 </table>
-
-
 
 <br/>
 
