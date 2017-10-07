@@ -405,7 +405,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 			(2) getInstance(dataSetName)<br/>
 			(3) getValues(dataSetName)<br/>
 		</td>
-		<td>(1) Get all records of a custom setting
+		<td>(1) Get all records of a custom setting<br/>
 			<code>
 			Map<String, TPM_TriggerSetting_c> triggerSetting = TPM_TriggerSetting_c.getAll();
 			for(String triggerName : triggerSetting.keySet()){
