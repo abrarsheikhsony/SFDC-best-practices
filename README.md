@@ -121,7 +121,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	<tr>
 		<th>Component</th>
 		<th>Naming Convention</th>
-		<th>Example</th>
+		<th>Examples with Suffix</th>
 	</tr>
 	<tr>
 		<td>Visualforce Page</td>
@@ -147,7 +147,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	<tr>
 		<th>Component</th>
 		<th>Naming Convention</th>
-		<th>Example</th>
+		<th>Examples with Suffix</th>
 	</tr>
 	<tr>
 		<td>Lightning Application</td>
