@@ -99,17 +99,17 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 	<tr>
 		<td>Apex Class Method</td>
-		<td>CapitalizedCamelCase without Underscores</td>
+		<td>lowerCamelCase without Underscores</td>
 		<td>public void calculateSales(){}</td>
 	</tr>
 	<tr>
 		<td>Apex Constant Class Variables</td>
-		<td>CapitalizedCamelCase without Underscores</td>
+		<td>CAPITALIZED_WITH_UNDERSCORES</td>
 		<td>public static final OBJECT_TYPE_ACCOUNT = ‘Account’;</td>
 	</tr>
 	<tr>
 		<td>Boolean Variables</td>
-		<td>CapitalizedCamelCase without Underscores</td>
+		<td>lowerCamelCase without Underscores</td>
 		<td>isActive, hasErrors, hasLineItems, isSuccess etc.</td>
 	</tr>
 </table>
@@ -124,9 +124,19 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th>Example</th>
 	</tr>
 	<tr>
-		<td></td>
+		<td>Visualforce Page</td>
 		<td>CapitalizedCamelCase without Underscores</td>
-		<td>AccountTrigger</td>
+		<td>ViewSales</td>
+	</tr>
+	<tr>
+		<td>Static Resources</td>
+		<td>lowerCamelCase without Underscores</td>
+		<td>paginationResource</td>
+	</tr>
+	<tr>
+		<td>Custom Label</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>ErrorMessage</td>
 	</tr>
 </table>
 
