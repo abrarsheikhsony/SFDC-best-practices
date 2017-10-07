@@ -189,7 +189,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 <table>
 	<tr>
-		<th colspan="3">Acceptable Keywords & Access Modifiers (Y)</th>
+		<th colspan="12">Acceptable Keywords & Access Modifiers (Y)</th>
 	</tr>
 	<tr>
 		<th>Class Types</th>
