@@ -20,6 +20,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (f) Apex Test Data Factory class<br/>
 (g) Apex Test class<br/>
 
+
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Point and Click Tools)</th>
@@ -30,7 +31,37 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th>Example</th>
 	</tr>
 	<tr>
-		<td>Custom Object Name</td>
+		<td>Custom Object Name / Custom Field Name / Record Types / Validation Rules / Workflow Rules / Approval Processes / Custom Buttons & Links</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<td>Custom Field Name</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<td>Record Types</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<td>Validation Rules</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<td>Workflow Rules</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<td>Approval Processes</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<td>Custom Buttons & Links</td>
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>SalesOrder__c</td>
 	</tr>
