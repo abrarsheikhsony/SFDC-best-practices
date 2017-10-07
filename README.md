@@ -33,6 +33,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 </table>
 
+<br/>
+
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Apex)</th>
@@ -114,6 +116,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 </table>
 
+<br/>
+
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Visualforce / Static Resource / Custom Labels)</th>
@@ -139,6 +143,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>ErrorMessage</td>
 	</tr>
 </table>
+
+<br/>
 
 <table>
 	<tr>
@@ -180,6 +186,42 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>sendAccountToSAP_CompEvent</td>
 	</tr>
 </table>
+
+<table>
+	<tr>
+		<th colspan="3">Acceptable Keywords & Access Modifiers (Y)</th>
+	</tr>
+	<tr>
+		<th>Class Types</th>
+		<th>global</th>
+		<th>public</th>
+		<th>private</th>
+		<th>with sharing</th>
+		<th>without sharing</th>		
+		<th>@isTest annotation</th>
+		<th>@isTest(SeeAllData=false) annotation</th>
+		<th>@isTest(SeeAllData=true) annotation</th>
+		<th>@isTest(isParallel=true) annotation</th>
+		<th>@testSetup</th>
+		<th>@TestVisible</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+<br/>
 
 ##### Reference Links for Apex Trigger
 (a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables_considerations.htm" target="_blank" alt="Context Variable Considerations">Context Variable Considerations</a><br/>
