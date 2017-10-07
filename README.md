@@ -187,6 +187,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 </table>
 
+<br/>
+
 <table>
 	<tr>
 		<th colspan="12">Acceptable Keywords & Access Modifiers (Y)</th>
@@ -202,8 +204,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th>@isTest(SeeAllData=false) annotation</th>
 		<th>@isTest(SeeAllData=true) annotation</th>
 		<th>@isTest(isParallel=true) annotation</th>
-		<th>@testSetup</th>
-		<th>@TestVisible</th>
+		<th>@testSetup annotation</th>
+		<th>@TestVisible annotation</th>
 	</tr>
 	<tr>
 		<td></td>
