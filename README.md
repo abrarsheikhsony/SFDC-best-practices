@@ -150,82 +150,48 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th>Example</th>
 	</tr>
 	<tr>
-		<td></td>
+		<td>Lightning Application</td>
 		<td>CapitalizedCamelCase without Underscores</td>
-		<td>AccountTrigger</td>
+		<td>HRMApp</td>
+	</tr>
+	<tr>
+		<td>Lightning Interface</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>PaginationInterface</td>
+	</tr>
+	<tr>
+		<td>Lightning Component</td>
+		<td>lowerCamelCase without Underscores</td>
+		<td>processRecordsComponent</td>
+	</tr>
+	<tr>
+		<td>Lightning Token</td>
+		<td>lowerCamelCase without Underscores</td>
+		<td>integrationCredentialsToken</td>
+	</tr>
+	<tr>
+		<td>Lightning Application Event</td>
+		<td>lowerCamelCase with Underscores</td>
+		<td>deleteRecord_AppEvent</td>
+	</tr>
+	<tr>
+		<td>Lightning Component Event</td>
+		<td>lowerCamelCase with Underscores</td>
+		<td>sendAccountToSAP_CompEvent</td>
 	</tr>
 </table>
 
-
-
-
-  
-
-### Custom Objects
-1. Custom object name should be <b>CapitalizedCamelCase</b>
-2. e.g. SalesOrder__c etc. <font color="green">(Yes this one!)</font>
-3. Sales_Order__c (Not this one!)
-
-### Custom Fields
-1. Custom field name should be <b>CapitalizedCamelCase</b>
-2. e.g. SalesAmount__c etc. <font color="green">(Yes this one!)</font>
-3. Sales_Amount__c (Not this one!)
-
-### Apex Trigger
-1. Apex trigger name should be <b>CapitalizedCamelCase</b>
-2. e.g. AccountTrigger, SalesOrderTrigger etc. <font color="green">(Yes this one!)</font>
-3. AfterUpdateTrigger etc. (Not this one!)
-4. Apex triggers should be Bulkified.
-5. Apex triggers should be implemented with NO Business Logic in it rather calling an Apex Trigger Handler to handle the Business Logic.
-##### Reference Links
+##### Reference Links for Apex Trigger
 (a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables_considerations.htm" target="_blank" alt="Context Variable Considerations">Context Variable Considerations</a><br/>
 (b) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables.htm" target="_blank" alt="Trigger Context Variables">Trigger Context Variables</a><br/>
 (c) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_recovered_records.htm" target="_blank" alt="Triggers and Recovered Records">Triggers and Recovered Records for after undelete trigger</a><br/>
 
-### Apex Class
-1. Apex class name should be <b>CapitalizedCamelCase</b>
-2. e.g. SalesOrderTriggerHandler, SalesOrderUtility etc. <font color="green">(Yes this one!)</font>
-3. Sales_Order_Trigger_Handler, Sales_Order_Utility etc. (Not this one!)
-4. Method or Function names should use <b>lowerCamelCase</b>
-5. e.g. calculateTotalAmount etc. <font color="green">(Yes this one!)</font>
-6. e.g. CalculateTotalAmount, CALCULATE_TOTAL_AMOUNT, Calculate_Total_Amount etc. (Not this one!)
-
-### Apex Constant Class
-1. Apex constant class name should be <b>CapitalizedCamelCase</b>
-2. e.g. ApplicationConstant etc. <font color="green">(Yes this one!)</font>
-2. Constants should be CAPITALIZED_WITH_UNDERSCORES.
-3. e.g. SALES_ORDER_STATUS etc. <font color="green">(Yes this one!)</font>
-4. e.g. salesOrderStatus, sales_Order_Status etc. (Not this one!)
-
-### Apex Trigger Handler Class
-1. Apex trigger handler class name should be <b>CapitalizedCamelCase</b>
-2. e.g. AccountTriggerHandler, SalesOrderTriggerHandler etc. <font color="green">(Yes this one!)</font>
-
-### Apex Utility Class
-1. Apex utility class name should be <b>CapitalizedCamelCase</b>
-2. e.g. AccountUtility, SalesOrderUtility etc. <font color="green">(Yes this one!)</font>
-
-### Apex Wrapper Class
-1. Apex wrapper class name should be <b>CapitalizedCamelCase</b>
-2. e.g. AccountWrapper, SalesOrderWrapper, IntegrationWrapper, LightningComponentWrapper etc. <font color="green">(Yes this one!)</font>
-
-### Visualforce / Lightning Controller Class
-1. Visualforce / Lightning component class name should be <b>CapitalizedCamelCase</b>
-2. e.g. AccountController, SalesOrderController etc. <font color="green">(Yes this one!)</font>
-
-### Apex Test Data Factory Class
-1. Apex test data factory class name should be <b>CapitalizedCamelCase</b>
-2. e.g. TestDataFactory <font color="green">(Yes this one!)</font>
-3. The TestDataFactory will have test methods to build objects with the data. 
-##### Reference Links
+##### Reference Links Apex Test Data Factory Class
 (a) <a href="https://trailhead.salesforce.com/en/modules/apex_testing/units/apex_testing_intro" target="_blank" alt="Get Started with Apex Unit Tests">Get Started with Apex Unit Tests</a><br/>
 (b) <a href="http://releasenotes.docs.salesforce.com/en-us/winter18/release-notes/rn_apex_annotation_istest_isparallel.htm" target="_blank" alt="@isTest(isParallel=true) annotation">@isTest(isParallel=true) annotation</a><br/>
 (c) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_utility_classes.htm" target="_blank" alt="Common Test Utility Classes for Test Data Creation">Common Test Utility Classes for Test Data Creation</a><br/>
 (d) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_methods_system_test.htm" target="_blank" alt="Standard Test Methods">Standard Test Methods</a><br/>
 
-### Apex Test Class
-1. Apex test class name should be <b>CapitalizedCamelCase</b>
-2. e.g. AccountTriggerHandlerTest, SalesOrderTriggerHandlerTest etc. <font color="green">(Yes this one!)</font>
-##### Reference Links
+##### Reference Links for Apex Test Class
 (a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_qs_test.htm" target="_blank" alt="Hello World Trigger Test Class">Hello World Trigger Test Class</a><br/>
 (b) <a href="https://developer.salesforce.com/page/An_Introduction_to_Apex_Code_Test_Methods" target="_blank" alt="An Introduction to Apex Code Test Methods">An Introduction to Apex Code Test Methods</a><br/>
