@@ -389,7 +389,6 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 <br/>
 
-
 <table>
 	<tr>
 		<th colspan="3">Custom Settings</th>
@@ -414,13 +413,13 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 				System.Debug('>>Trigger flag Activate/Deactivate<<'+triggerSetting.get(triggerName).Deactivate__c);
 			}
 			</code>
-			(2) Get specific record from the custom setting using literal <br/>
+			<br/> (2) Get specific record from the custom setting using literal <br/>
 			<code>
 			TriggerSetting_c accountTriggerSetting = TriggerSetting_c.getInstance('Account');
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
 			</code>
-			(3) Get specific record from the custom setting using literal <br/>
+			<br/> (3) Get specific record from the custom setting using literal <br/>
 			<code>
 			TriggerSetting_c accountTriggerSetting = TriggerSetting_c.getValues('Account');
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
@@ -429,6 +428,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		</td>
 	</tr>
 </table>
+
 
 
 
