@@ -20,7 +20,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (f) Apex Test Data Factory class<br/>
 (g) Apex Test class<br/>
 
-<table border="1">
+<table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Point and Click Tools)</th>
 	</tr>
