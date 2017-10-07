@@ -21,6 +21,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (g) Apex Test class<br/>
 
 
+
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Point and Click Tools)</th>
@@ -42,6 +43,30 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		</td>
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>SalesOrder__c</td>
+	</tr>
+	<tr>
+		<th colspan="3">Salesforce Naming Conventions (Apex)</th>
+	</tr>	
+	<tr>
+		<td></td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountTrigger</td>
+	</tr>
+	<tr>
+		<th colspan="3">Salesforce Naming Conventions (Visualforce / Static Resource / Custom Labels)</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountTrigger</td>
+	</tr>
+	<tr>
+		<th colspan="3">Salesforce Naming Conventions (Lightning)</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountTrigger</td>
 	</tr>
 </table>
   
