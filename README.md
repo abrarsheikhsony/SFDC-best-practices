@@ -389,6 +389,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 
 <br/>
 
+
 <table>
 	<tr>
 		<th colspan="3">Custom Settings</th>
@@ -405,17 +406,30 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 			(2) getInstance(dataSetName)<br/>
 			(3) getValues(dataSetName)<br/>
 		</td>
-		<td>(1) Get all records of a custom setting<br/>
+		<td>(1) Get all records of a custom setting <br/>
 			<code>
-			Map<String, TPM_TriggerSetting_c> triggerSetting = TPM_TriggerSetting_c.getAll();
+			Map<String, TriggerSetting_c> triggerSetting = TriggerSetting_c.getAll();
 			for(String triggerName : triggerSetting.keySet()){
 				System.Debug('>>triggerName<<'+triggerName); 
 				System.Debug('>>Trigger flag Activate/Deactivate<<'+triggerSetting.get(triggerName).Deactivate__c);
 			}
 			</code>
+			(2) Get specific record from the custom setting using literal <br/>
+			<code>
+			TriggerSetting_c accountTriggerSetting = TriggerSetting_c.getInstance('Account');
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
+			</code>
+			(3) Get specific record from the custom setting using literal <br/>
+			<code>
+			TriggerSetting_c accountTriggerSetting = TriggerSetting_c.getValues('Account');
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
+			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
+			</code>
 		</td>
 	</tr>
 </table>
+
 
 
 
