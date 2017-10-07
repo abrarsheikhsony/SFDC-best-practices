@@ -6,20 +6,7 @@ The best applications are coded properly. The "properly" means the code not only
 
 Coding standards are great! We want to ensure that the Salesforce org is self documented. The consistent and well-written code is critical to ensuring high quality standards across all applications. 
 
-Here you will find the Best Practices (Naming Conventions & Coding Standards) of following components of Salesforce.com org:
-1. Custom Objects
-2. Custom Fields
-3. Apex Triggers
-4. Apex Classes
-5. Re-factor Apex Classes<br/>
-(a) Apex Constants class<br/>
-(b) Apex Trigger Handler class<br/>
-(c) Apex Utility class<br/>
-(d) Apex Wrapper class<br/>
-(e) Apex Controller (Visualforce / Lightning) class<br/>
-(f) Apex Test Data Factory class<br/>
-(g) Apex Test class<br/>
-
+Here you will find the Best Practices (Naming Conventions & Coding Standards) of development components for Salesforce org.
 
 
 <table>
@@ -44,6 +31,9 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>SalesOrder__c</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Apex)</th>
 	</tr>	
@@ -52,6 +42,9 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>AccountTrigger</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Visualforce / Static Resource / Custom Labels)</th>
 	</tr>
@@ -60,6 +53,9 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>AccountTrigger</td>
 	</tr>
+</table>
+
+<table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Lightning)</th>
 	</tr>
@@ -69,6 +65,9 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td>AccountTrigger</td>
 	</tr>
 </table>
+
+
+
   
 
 ### Custom Objects
