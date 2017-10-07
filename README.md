@@ -20,11 +20,20 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (f) Apex Test Data Factory class<br/>
 (g) Apex Test class<br/>
 
-<table border="2">
-  <tr>
-    <td>1</td>
-    <td>2</td>
-  </tr>
+<table border="1">
+	<tr>
+		<th colspan="3">Salesforce Naming Conventions (Point and Click Tools)</th>
+	</tr>
+	<tr>
+		<th>Component</th>
+		<th>Naming Convention</th>
+		<th>Example</th>
+	</tr>
+	<tr>
+		<td>Custom Object Name</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>SalesOrder__c</td>
+	</tr>
 </table>
   
 
