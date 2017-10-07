@@ -32,12 +32,12 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 	<tr>
 		<td>
-			Custom Object Name
-			Custom Field Name
-			Record Types
-			Validation Rules
-			Workflow Rules
-			Approval Processes
+			Custom Object Name<br/>
+			Custom Field Name<br/>
+			Record Types<br/>
+			Validation Rules<br/>
+			Workflow Rules<br/>
+			Approval Processes<br/>
 			Custom Buttons & Links
 		</td>
 		<td>CapitalizedCamelCase without Underscores</td>
