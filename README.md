@@ -283,7 +283,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 	</tr>
 	<tr>
-		<td>Visualforce Controllers</td>
+		<td>Visualforce Controller</td>
 		<td></td>
 		<td>Y</td>
 		<td></td>
@@ -294,7 +294,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<td></td>
 	</tr>
 	<tr>
-		<td>Visualforce Controllers</td>
+		<td>Visualforce Controller Extension</td>
 		<td></td>
 		<td>Y</td>
 		<td></td>
