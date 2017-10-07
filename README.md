@@ -400,25 +400,21 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 	<tr>
 		<td>List Custom Settings in Apex</td>
-		<td>
-			Don't use SOQL Query to access custom setting. Use following List custom setting methods to access it.
-			(1) getAll()
-			(2) getInstance(dataSetName)
-			(3) getValues(dataSetName)
+		<td>Don't use SOQL Query to access custom setting. Use following List custom setting methods to access it.<br/>
+			(1) getAll()<br/>
+			(2) getInstance(dataSetName)<br/>
+			(3) getValues(dataSetName)<br/>
 		</td>
-		<td>
-			(1) Get all records of a custom setting
+		<td>(1) Get all records of a custom setting
 			Map<String, TPM_TriggerSetting_c> triggerSetting = TPM_TriggerSetting_c.getAll();
 			for(String triggerName : triggerSetting.keySet()){
 				System.Debug('>>triggerName<<'+triggerName); 
 				System.Debug('>>Trigger flag Activate/Deactivate<<'+triggerSetting.get(triggerName).Deactivate__c);
 			}
-
 			(2) Get specific record from the custom setting using literal
 			TPM_TriggerSetting_c accountTriggerSetting = TPM_TriggerSetting_c.getInstance('Account');
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
-
 			(3) Get specific record from the custom setting using literal
 			TPM_TriggerSetting_c accountTriggerSetting = TPM_TriggerSetting_c.getValues('Account');
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
@@ -426,6 +422,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		</td>
 	</tr>
 </table>
+
 
 <br/>
 ##### Reference Links for Apex Trigger
