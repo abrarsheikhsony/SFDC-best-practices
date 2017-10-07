@@ -45,7 +45,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	<tr>
 		<td></td>
 		<td>CapitalizedCamelCase without Underscores</td>
-		<td><font color="blue">Account</font><font color="green">Trigger</font></td>
+		<td><font color="red">Account</font><font color="green">Trigger</font></td>
 	</tr>
 </table>
 
