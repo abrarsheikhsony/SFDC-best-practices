@@ -33,11 +33,6 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	</tr>
 </table>
 
-<style>
-.redtext {
-        color: red;
-}
-</style>
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Apex)</th>
@@ -50,7 +45,7 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	<tr>
 		<td></td>
 		<td>CapitalizedCamelCase without Underscores</td>
-		<td class="redtext"><font color="red">Account</font><font color="green">Trigger</font></td>
+		<td color="red;"><font color="red">Account</font><font color="green">Trigger</font></td>
 	</tr>
 </table>
 
