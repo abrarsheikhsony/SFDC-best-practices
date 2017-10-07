@@ -10,6 +10,17 @@ Version 	Author 		Date 				Detail Description
 ----------------------------------------------------------------------*/
 public with sharing class ApplicationConstant{
 	
+	// Types are final by default, use virtual to declare a type that can be extended
+    public Enum TRIGGER_CONTEXT {
+    	BEFORE_INSERT,
+    	BEFORE_UPDATE,
+    	BEFORE_DELETE,
+    	AFTER_INSERT,
+    	AFTER_UPDATE,
+    	AFTER_DELETE,
+    	AFTER_UNDELETE
+    }
+    
 	public static final String SALES_ORDER_STATUS = 'Approved';
 	// Other constants here...
 
