@@ -8,7 +8,6 @@ Coding standards are great! We want to ensure that the Salesforce org is self do
 
 Here you will find the Best Practices (Naming Conventions & Coding Standards) of development components for Salesforce org.
 
-
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Point and Click Tools)</th>
@@ -26,7 +25,8 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 			Validation Rules<br/>
 			Workflow Rules<br/>
 			Approval Processes<br/>
-			Custom Buttons & Links
+			Custom Buttons & Links<br/>
+			......................<br/>
 		</td>
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>SalesOrder__c</td>
@@ -36,7 +36,12 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Apex)</th>
-	</tr>	
+	</tr>
+	<tr>
+		<th>Component</th>
+		<th>Naming Convention</th>
+		<th>Example</th>
+	</tr>
 	<tr>
 		<td></td>
 		<td>CapitalizedCamelCase without Underscores</td>
@@ -47,6 +52,11 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 <table>
 	<tr>
 		<th colspan="3">Salesforce Naming Conventions (Visualforce / Static Resource / Custom Labels)</th>
+	</tr>
+	<tr>
+		<th>Component</th>
+		<th>Naming Convention</th>
+		<th>Example</th>
 	</tr>
 	<tr>
 		<td></td>
@@ -60,11 +70,17 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th colspan="3">Salesforce Naming Conventions (Lightning)</th>
 	</tr>
 	<tr>
+		<th>Component</th>
+		<th>Naming Convention</th>
+		<th>Example</th>
+	</tr>
+	<tr>
 		<td></td>
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>AccountTrigger</td>
 	</tr>
 </table>
+
 
 
 
