@@ -413,13 +413,13 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 				System.Debug('>>Trigger flag Activate/Deactivate<<'+triggerSetting.get(triggerName).Deactivate__c);
 			}
 			</code>
-			<br/> (2) Get specific record from the custom setting using literal <br/>
+			<br/><br/>(2) Get specific record from the custom setting using literal <br/>
 			<code>
 			TriggerSetting_c accountTriggerSetting = TriggerSetting_c.getInstance('Account');
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting.Deactivate__c);
 			</code>
-			<br/> (3) Get specific record from the custom setting using literal <br/>
+			<br/><br/>(3) Get specific record from the custom setting using literal <br/>
 			<code>
 			TriggerSetting_c accountTriggerSetting = TriggerSetting_c.getValues('Account');
 			System.Debug('>>accountTriggerSetting<<'+accountTriggerSetting);
@@ -427,7 +427,38 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 			</code>
 		</td>
 	</tr>
+	<tr>
+		<td>Hierarchy Custom Setting in Apex</td>
+		<td>Don't use SOQL Query to access custom setting. Use following Hierarchy custom setting methods to access it.<br/>
+			(1) getInstance() <br/>
+			(2) getInstance(userId) <br/>
+			(3) getInstance(profileId) <br/>
+			(4) getOrgDefaults() <br/>
+			(5) getValues(userId) <br/>
+			(6) getValues(profileId) <br/>
+		</td>
+		<td>(1) <br/>
+			<code>
+			TPM_ApplicationSetting_c applicationSetting = TPM_ApplicationSetting_c.getOrgDefaults();
+			System.Debug('>>applicationSetting<<'+applicationSetting);
+			System.Debug('>>applicationSetting<<'+applicationSetting.TPM_RecordsPerPage__c);
+			if( applicationSetting.TPM_RecordsPerPage__c <> null ){
+			// Your code here... 
+			}
+			</code>
+			<br/> (2) <br/>
+			<code>
+			TPM_ApplicationSetting_c applicationSetting = TPM_ApplicationSetting_c.getInstance();
+			System.Debug('>>applicationSetting<<'+applicationSetting);
+			System.Debug('>>applicationSetting<<'+applicationSetting.TPM_RecordsPerPage__c);
+			if( applicationSetting.TPM_RecordsPerPage__c <> null ){
+			// Your code here... 
+			}
+			</code>
+		</td>
+	</tr>
 </table>
+
 
 
 
