@@ -31,37 +31,15 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 		<th>Example</th>
 	</tr>
 	<tr>
-		<td>Custom Object Name / Custom Field Name / Record Types / Validation Rules / Workflow Rules / Approval Processes / Custom Buttons & Links</td>
-		<td>CapitalizedCamelCase without Underscores</td>
-		<td>SalesOrder__c</td>
-	</tr>
-	<tr>
-		<td>Custom Field Name</td>
-		<td>CapitalizedCamelCase without Underscores</td>
-		<td>SalesOrder__c</td>
-	</tr>
-	<tr>
-		<td>Record Types</td>
-		<td>CapitalizedCamelCase without Underscores</td>
-		<td>SalesOrder__c</td>
-	</tr>
-	<tr>
-		<td>Validation Rules</td>
-		<td>CapitalizedCamelCase without Underscores</td>
-		<td>SalesOrder__c</td>
-	</tr>
-	<tr>
-		<td>Workflow Rules</td>
-		<td>CapitalizedCamelCase without Underscores</td>
-		<td>SalesOrder__c</td>
-	</tr>
-	<tr>
-		<td>Approval Processes</td>
-		<td>CapitalizedCamelCase without Underscores</td>
-		<td>SalesOrder__c</td>
-	</tr>
-	<tr>
-		<td>Custom Buttons & Links</td>
+		<td>
+			Custom Object Name
+			Custom Field Name
+			Record Types
+			Validation Rules
+			Workflow Rules
+			Approval Processes
+			Custom Buttons & Links
+		</td>
 		<td>CapitalizedCamelCase without Underscores</td>
 		<td>SalesOrder__c</td>
 	</tr>
