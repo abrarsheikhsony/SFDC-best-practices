@@ -40,12 +40,77 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 	<tr>
 		<th>Component</th>
 		<th>Naming Convention</th>
-		<th>Example</th>
+		<th>Examples with Suffix</th>
 	</tr>
 	<tr>
-		<td></td>
+		<td>Apex Trigger</td>
 		<td>CapitalizedCamelCase without Underscores</td>
-		<td color="red;"><p style="color:#FF0000";>Red paragraph text</p><font color="red">Account</font><font color="green">Trigger</font></td>
+		<td>AccountTrigger</td>
+	</tr>
+	<tr>
+		<td>Apex Trigger Handler Class</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountTriggerHandler</td>
+	</tr>
+	<tr>
+		<td>Apex Utility Class</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountUtility</td>
+	</tr>
+	<tr>
+		<td>Apex Helper Class</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountRollupHelper</td>
+	</tr>
+	<tr>
+		<td>Apex Wrapper class</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountWrapper</td>
+	</tr>
+	<tr>
+		<td>Apex Batch Class</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>ProcessAccountsBatch</td>
+	</tr>
+	<tr>
+		<td>Apex Schedule Class</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>ProcessAccountsBatchSchedule</td>
+	</tr>
+	<tr>
+		<td>Apex/Visualforce Controller</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountController</td>
+	</tr>
+	<tr>
+		<td>Apex/Visualforce Controller Extension</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountControllerExtension</td>
+	</tr>
+	<tr>
+		<td>Apex Test Data Factory</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountTestDataFactory</td>
+	</tr>
+	<tr>
+		<td>Apex Test Class Name</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>AccountTest</td>
+	</tr>
+	<tr>
+		<td>Apex Class Method</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>public void calculateSales(){}</td>
+	</tr>
+	<tr>
+		<td>Apex Constant Class Variables</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>public static final OBJECT_TYPE_ACCOUNT = ‘Account’;</td>
+	</tr>
+	<tr>
+		<td>Boolean Variables</td>
+		<td>CapitalizedCamelCase without Underscores</td>
+		<td>isActive, hasErrors, hasLineItems, isSuccess etc.</td>
 	</tr>
 </table>
 
