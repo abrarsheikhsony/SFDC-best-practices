@@ -20,6 +20,14 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 (f) Apex Test Data Factory class<br/>
 (g) Apex Test class<br/>
 
+<table border="2">
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
+  
+
 ### Custom Objects
 1. Custom object name should be <b>CapitalizedCamelCase</b>
 2. e.g. SalesOrder__c etc. <font color="green">(Yes this one!)</font>
