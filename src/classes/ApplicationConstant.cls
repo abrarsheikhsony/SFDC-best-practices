@@ -1,17 +1,8 @@
-/*----------------------------------------------------------------------
-Name: 		ApplicationConstant.cls
-Purpose: 	A constant class of the whole application.
-			(1) It must ONLY contain constant "or" hard-coded values NOT utility functions/methods
-			(2) Variable name must be in CAPITAL Letters
-------------------------------History----------------------------------
-Version 	Author 		Date 				Detail Description 
--------		-------		-------------- 		------------------
-1.0 		Abrar 		25-August-2017		Initial Development	
-----------------------------------------------------------------------*/
 public with sharing class ApplicationConstant{
-	
+
 	// Types are final by default, use virtual to declare a type that can be extended
     public Enum TRIGGER_CONTEXT {
+        ALL,
     	BEFORE_INSERT,
     	BEFORE_UPDATE,
     	BEFORE_DELETE,
@@ -20,8 +11,11 @@ public with sharing class ApplicationConstant{
     	AFTER_DELETE,
     	AFTER_UNDELETE
     }
-    
-	public static final String SALES_ORDER_STATUS = 'Approved';
-	// Other constants here...
+    // SObject Types
+    public static final String SOBJECT_TYPE_APEX_TRIGGER = 'ApexTrigger';
+    public static final String SOBJECT_TYPE_APEX_CLASS = 'ApexClass';
+    public static final String SOBJECT_TYPE_ACCOUNT = 'Account';
+
+    public static final String SALES_ORDER_STATUS = 'Approved';
 
 }
