@@ -499,3 +499,10 @@ Here you will find the Best Practices (Naming Conventions & Coding Standards) of
 ##### Reference Links for Apex Test Class
 (a) <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_qs_test.htm" target="_blank" alt="Hello World Trigger Test Class">Hello World Trigger Test Class</a><br/>
 (b) <a href="https://developer.salesforce.com/page/An_Introduction_to_Apex_Code_Test_Methods" target="_blank" alt="An Introduction to Apex Code Test Methods">An Introduction to Apex Code Test Methods</a><br/>
+
+##### Trigger Setting to enable (Active) or disable (Inactive) trigger on a specific object.
+<img src="supportedimages/1.TriggerSetting.png" />
+
+<img src="supportedimages/2.TriggerSetting.png" />
+
+<img src="supportedimages/3.TriggerSetting.png" />
