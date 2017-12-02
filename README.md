@@ -538,7 +538,7 @@ public PageReference saveAccounts(){
 
 (4) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/apex-for-developers" target="_blank" alt="Apex for Developers">Apex for Developers</a><br/>
 
-(5) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/integration-with-salesforce" target="_blank" alt="Integration with Salesforce (useful for Apex developers + MuleSoft + Heroku folks)">Integration with Salesforce (useful for Apex developers + MuleSoft + Heroku folks)</a><br/>
+(5) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/integration-with-salesforce" target="_blank" alt="Integration with Salesforce (useful for Apex developers + MuleSoft + Heroku folks)">Integration with Salesforce (useful for Apex developers + Integration folks)</a><br/>
 
 #### Object Oriented Programming in Apex (useful for Advanced Apex developers)
 (6) <a href="https://th3silverlining.com/2014/06/06/a-beginners-guide-to-object-oriented-programming-with-apex/" target="_blank" alt="A Beginner’s Guide to Object-Oriented Programming with Apex">A Beginner’s Guide to Object-Oriented Programming with Apex</a><br/>
