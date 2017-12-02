@@ -528,3 +528,21 @@ public PageReference saveAccounts(){
 
 }
 ```
+
+## Salesforce Trailmixes
+(1) <a href="https://trailhead.salesforce.com/trails/learn_salesforce_with_trailhead" target="_blank" alt="Learn Salesforce with Trailhead">Learn Salesforce with Trailhead</a><br/>
+
+(2) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/salesforce-for-starters" target="_blank" alt="Salesforce for Starters (useful for Consultants and Functional folks)">Salesforce for Starters (useful for Consultants and Functional folks)</a><br/>
+
+(3) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/salesforce-for-ui-ux-developers" target="_blank" alt="Salesforce for UI/UX Developers (useful for SmartUI and Visualforce developers)">Salesforce for UI/UX Developers (useful for SmartUI and Visualforce developers)</a><br/>
+
+(4) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/apex-for-developers" target="_blank" alt="Apex for Developers">Apex for Developers</a><br/>
+
+(5) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/integration-with-salesforce" target="_blank" alt="Integration with Salesforce (useful for Apex developers + MuleSoft + Heroku folks)">Integration with Salesforce (useful for Apex developers + MuleSoft + Heroku folks)</a><br/>
+
+#### Object Oriented Programming in Apex (useful for Advanced Apex developers)
+(6) <a href="https://th3silverlining.com/2014/06/06/a-beginners-guide-to-object-oriented-programming-with-apex/" target="_blank" alt="A Beginner’s Guide to Object-Oriented Programming with Apex">A Beginner’s Guide to Object-Oriented Programming with Apex</a><br/>
+
+(7) <a href="https://trailhead.salesforce.com/users/00550000006G25XAAS/trailmixes/oop-in-apex" target="_blank" alt="Apex Enterprise Patterns">Apex Enterprise Patterns</a><br/>
+
+(8) <a href="https://developer.salesforce.com/page/Apex_Design_Patterns" target="_blank" alt="Apex Design Patterns">Apex Design Patterns</a><br/>
